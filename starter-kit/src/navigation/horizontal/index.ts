@@ -13,6 +13,11 @@ const navigation = (): HorizontalNavItemsType => [
     icon: 'tabler:mail',
   },
   {
+    title: 'Calendario',
+    path: '/apps/calendar',
+    icon: 'tabler:calendar'
+  },
+  {
     path: '/acl',
     action: 'read',
     subject: 'acl-page',

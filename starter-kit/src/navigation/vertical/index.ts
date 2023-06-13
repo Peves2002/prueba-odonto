@@ -14,6 +14,11 @@ const navigation = (): VerticalNavItemsType => {
       icon: 'tabler:mail',
     },
     {
+      title: 'Calendar',
+      path: '/apps/calendar',
+      icon: 'tabler:calendar'
+    },
+    {
       path: '/acl',
       action: 'read',
       subject: 'acl-page',
